@@ -3,7 +3,7 @@
  * Plugin Name: BW Portfolio CPT with Portfolio filter taxonomy
  * Plugin URI: https://blindeman.github.io/bw-portfolio-portfolio-filter/
  * Description: Adding portfolio post type and custom taxonomy
- * Version: 0.0.1
+ * Version: 0.0.2
  * Tested up to: 5.3.2
  * Author: Naomi Blindeman
  * Author URI: https://blindemanwebsites.com/
@@ -44,7 +44,7 @@ function bw_register_portfolio() {
 		"show_in_rest" => true,
 		"rest_base" => "",
 		"rest_controller_class" => "WP_REST_Posts_Controller",
-		"has_archive" => true,
+		"has_archive" => "infotheek",
 		"show_in_menu" => true,
 		"show_in_nav_menus" => true,
 		"delete_with_user" => false,
